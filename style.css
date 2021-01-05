@@ -24,7 +24,7 @@ img{
     float: left;
     margin-right: 20px;
 }
-footer .social-area ul li{
+footer .footer-bottom ul li{
     float: left;
     background-repeat: no-repeat;
     width: 35px;
@@ -32,12 +32,12 @@ footer .social-area ul li{
     background-size: cover;
     margin-right: 25px;
 }
-footer .social-area ul .dribbble{
+footer .footer-bottom ul .dribbble{
     background-image: url(images/dribbble.png);
 }
-footer .social-area ul .behance{
+footer .footer-bottom ul .behance{
     background-image: url(images/behance.png);
 }
-footer .social-area ul .instagram{
+footer .footer-bottom ul .instagram{
     background-image: url(images/instagram.png);
 }
