@@ -6,6 +6,7 @@
 .container{
     width: 1460px;
     margin: 0 auto;
+    background-color: #f9fafd;
 }
 img{
     width: 100%;
@@ -18,16 +19,26 @@ p{
     font-weight: 400;
 }
 h1{
-    font-family: 'Bebas Neue';
+    font-family:'Bebas Neue';
     font-weight: 700;
     font-size: 80px;
     line-height: 80px;
     margin-bottom: 20px;
-    color: #363958;;
+    color: #363958;
 }
 .highlite-color{
     color: #FF8367;
 }
+.lightsalmon-button{
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-image: linear-gradient(30deg, lightsalmon, tomato);
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*nav menu start*/
 nav{
     height: 100px;
 }
@@ -46,18 +57,11 @@ nav .menu-bar{
     font-weight: 500;
     font-size: 16px;
 }
-.lightsalmon-button{
-    padding: 15px 25px;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    background-image: linear-gradient(30deg, lightsalmon, tomato);
-    border-radius: 5px;
-    text-decoration: none;
-}
+/*nav menu end*/
+/*section part start*/
 section{
-    height: 500px;
-    padding-bottom: 100px;
+    height: 530px;
+    padding-bottom: 135px;
 }
 .content-part{
     width: 40%;
@@ -65,20 +69,22 @@ section{
     padding-left: 5%;
     margin-left: 2%;
 }
+.content-part a img{
+    width: 20px;
+    height: 20px;
+}
 .blog-section{
-    background-color: #F8F9FC;
-    padding-left: 7.5%;
-    padding-top: 50px;
+    padding-left: 7.4%;
 }
 .blog-section h1{
-    font-size: 50px;
-    margin-bottom: 50px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
+    padding-top: 50px;
 }
 .blog{
     width: 26.5%;
-    margin: 1%;
+    margin: 1% ;
     border-radius: 10px;
     padding: 1%;
     float: left;
@@ -88,21 +94,53 @@ section{
 .blog .image-area{
     width: 343.54px;
     height: 213.23px;
-    padding-left: 5px;
+    padding-left: 7px;
 }
 .blog p{
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-
 }
 .blog h3{
     font-size: 24px;
     font-weight: 700;
     line-height: 28.13px;
     margin: 20px 0px;
+    color: #363958;
 }
-footer .footer-bottom ul li{
+/*blog section part ends*/
+/*footer top part*/
+.workinquiry-area{
+    width: 906px;
+    height: 225px;
+    background-image: url(images/workinqure-bg.png);
+    background-size: cover;
+    margin: 100px auto;
+}
+.workinquiry-area h1{
+    color: white;
+    padding: 8%;
+    display: inline-block;
+}
+.workinquiry-area a{
+    display: inline-block;
+    margin-left: 20%;
+}
+.contact-form{
+    width: 50%;
+    margin: 50px auto;
+}
+.contact-form h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-form input,textarea{
+    width: 100%;
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+/*footer bottom part*/
+footer ul li{
     float: left;
     background-repeat: no-repeat;
     width: 35px;
@@ -111,12 +149,33 @@ footer .footer-bottom ul li{
     margin-right: 25px;
     list-style: none;
 }
-footer .footer-bottom ul .dribbble{
+footer .social-area{
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+footer .social-area h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #696871;
+    font-family: 'bebas Neue';
+}
+footer .social-area h2{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+}
+footer .social-area .social-icons{
+    display: inline-block;
+    margin: 0 auto;
+}
+footer ul .dribbble{
     background-image: url(images/dribbble.png);
 }
-footer .footer-bottom ul .behance{
+footer ul .behance{
     background-image: url(images/behance.png);
 }
-footer .footer-bottom ul .instagram{
+footer ul .instagram{
     background-image: url(images/instagram.png);
 }
